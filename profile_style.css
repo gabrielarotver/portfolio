@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: calibri;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-image: url("./logos/desk5.jpg");
+  background-size: 100% 100%;
+}
+
+#contact_info img {
+  width: 3em;
+  height: 3em;
+  margin: 0 3em 0 3em;
+}
+
+#contact_info {
+  padding-bottom: .5em;
+
+}
+
+#contact_info ul{
+  width: 50%;
+  margin: auto;
+}
+
+#contact_info li {
+  margin: auto;
+  position: relative;
+  left: -1rem;
+}
+
+h1 {
+  padding-top: .2em;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 2.5em;
+}
+
+h2 {
+  padding-top: .2em;
+}
+
+nav ul {
+  margin-top: .2em;
+}
+
+nav {
+  background: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0.8;
+  font-size: 1.2em;
+  clear: both;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+
+li i {
+  font-size: 9em !important;
+}
+
+nav li:first-child {
+  float: left;
+  margin-left: 0;
+}
+
+nav li {
+  float: right;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+p {
+  margin: 0 3em 0 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: 1.2em;
+}
+
+#profile {
+  width: 14em;
+  height: 20em;
+  border-radius: 2em;
+}
+
+section {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 0 3em 1em 3em;
+  border-radius: 2em;
+}
+
+
+#skill_images {
+  text-align: center;
+  padding-bottom: 2em;
+}
+
+#skill_images ul {
+  margin: auto;
+  display: table;
+  width: 80% !important;
+  padding: 0;
+
+
+}
+#skill_images div {
+  width: 9em;
+  height: 8.5em;
+  margin: auto;
+  padding: 0;
+
+}
+#skill_images li {
+  display: table-cell;
+  width: 33%;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.icon-ruby {
+  color: red;
+}
+.icon-java-bold {
+  color: purple;
+  position: relative;
+  left: 2rem;
+}
+.icon-cplusplus{
+  color: yellow;
+}
+.icon-c {
+  color: blue;
+  position: relative;
+  left: 1rem;
+  top: .5rem;
+}
+.fa-html5 {
+  color: orange;
+}
+.fa-css3 {
+  color: #00CC99;
+}
